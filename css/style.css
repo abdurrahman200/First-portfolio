@@ -1,0 +1,115 @@
+body
+{
+    padding: 0;
+    margin:0;
+    font-family: 'Rajdhani', sans-serif;
+    box-sizing: border-box;
+}
+section
+{
+    padding-bottom: 40px;
+}
+.top-benner{
+   
+    height: 80vh;
+    background-image: url(../image/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.name-highlight{
+    color: rgb(10, 197, 26);
+}
+.nice
+{
+    color: rgb(139, 0, 93);
+}
+.half-column{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+    margin-top: 30px;
+}
+half-column p {
+    text-align: justify;
+}
+.half-column img{
+    width: 100%;
+}
+.btn{
+    text-decoration: none;
+    color: #fff;
+    background: rgb(65, 26, 208);
+    background: linear-gradient(90deg,  rgb(194, 8, 79) 35%, rgb(0, 255, 115) 100%);
+    font-weight: bold;
+    padding:5px 16px;
+}
+.mid-benner{
+    height: 80vh;
+    background-image: url(../image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.last-benner{
+    height: 80vh;
+    background-image: url(../image/landing.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.exprience{
+    height: 75vh;
+    background-image: url(../image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+   
+}
+.half-column
+{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+    height: 50%;
+}
+.textcolor{
+    color: rgb(255, 0, 43);
+}
+.column
+{
+    width: 27%;
+    margin-left: 3%;
+    padding-left: 2%;
+    float: left;
+    height: 50%;
+}
+.box{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.3);
+    border-radius: 5px;
+    background-color: #fff;
+}
+.box p {
+    padding: 10px;
+}
+#Fullstack{
+    border-left: 8px solid;
+    border-image: linear-gradient(#f63c4c, #0c519f) 30;
+    border-image-slice: 1;
+}
+#Web{
+    border-left: 8px solid;
+    border-image: linear-gradient(#016363, #0c519f) 30;
+    border-image-slice: 1;
+}
+#Design
+{
+    border-left: 8px solid;
+    border-image: linear-gradient(#d30330, #0c519f) 30;
+    border-image-slice: 1;
+}
+.pad{
+    padding:2%;
+}
+.footer p{
+   text-align: center;
+}
